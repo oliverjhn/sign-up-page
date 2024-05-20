@@ -1,3 +1,4 @@
 {
-  "win-ca.inject": "append"
+  "win-ca.inject": "append",
+  "liveServer.settings.root": "/src"
 }
