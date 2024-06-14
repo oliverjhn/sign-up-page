@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* .input-field {
+    @apply mt-1 w-full rounded-sm border border-gray-200 bg-grey-25 p-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 md:w-80;
+  } */
+}

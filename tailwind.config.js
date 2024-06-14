@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "grey-25": "#FAFAFA",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
